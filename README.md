@@ -18,7 +18,7 @@ This function write its output to the stdout (standard output stream).
 + %r: Prints a reversed string
 + %R: Prints the Rot13 interpretation of a string
 
-##Example
+## Example
 #include "holberton.h"
 #include <stdio.h>
 /**
