@@ -19,6 +19,7 @@ This function write its output to the stdout (standard output stream).
 + %R: Prints the Rot13 interpretation of a string
 
 ## Example
+```C
 #include "holberton.h"
 #include <stdio.h>
 /**
@@ -34,3 +35,4 @@ int main(void)
    
   return (0);
 }
+```
