@@ -17,3 +17,20 @@ This function write its output to the stdout (standard output stream).
 + %X:Prints the hexadecial representation of an unsigned decimal in uppercase letters
 + %r: Prints a reversed string
 + %R: Prints the Rot13 interpretation of a string
+
+##Example
+#include "holberton.h"
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+
+int main(void)
+{
+  _printf("%c\n", "ALX"); //output A
+  _printf("%r\n", "hello"); //output olleh
+   
+  return (0);
+}
